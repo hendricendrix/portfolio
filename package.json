@@ -1,10 +1,11 @@
 {
   "name": "public",
   "version": "1.0.0",
-  "description": "",
+  "description": "For today's lab assignment, you will work independently to create a personal portfolio. You will begin with the provided starter code and modify the contents to complete your feature tasks. Take time to review the provided code base and understand its structure before adding features.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,13 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendricendrix/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hendricendrix/portfolio/issues"
+  },
+  "homepage": "https://github.com/hendricendrix/portfolio#readme"
 }
